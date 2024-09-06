@@ -44,7 +44,7 @@
 (function (root, factory) {
     // check to see if 'knockout' AMD module is specified if using requirejs
     if (typeof define === 'function' && define.amd &&
-        typeof require === 'function' && typeof require.specified === 'function' && require.specified('knockout')) {
+        typeof require === 'function') {
 
         // AMD. Register as an anonymous module.
         define(['jquery', 'knockout'], factory);
